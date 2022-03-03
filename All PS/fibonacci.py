@@ -33,6 +33,4 @@ def fibo(num):
             a = b
             b = result
             print(result)
-
-
 fibo(20)
