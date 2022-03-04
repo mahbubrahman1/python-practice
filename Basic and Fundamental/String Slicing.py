@@ -16,8 +16,8 @@
 # print(str[6:10])
 
 
-# tr = "Hello World"
-# print(str[3:-2])
+tr = "Hello World"
+print(tr[3:-2])
 
 
 # age = [1,2,3,4,5,6,7,8,9]
@@ -25,5 +25,5 @@
 
 
 
-name = "mahbuburrahman"
-print(name[:5])
+# name = "mahbuburrahman"
+# print(name[:5])

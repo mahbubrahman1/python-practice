@@ -1,3 +1,4 @@
+from PyQt5.sip import array
 
 from array import *
 
