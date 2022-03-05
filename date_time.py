@@ -1,6 +1,6 @@
-# import datetime
-# result = datetime.datetime.now()
-# print(result)
+import datetime
+result = datetime.datetime.now()
+print(result)
 
 
 # import datetime
@@ -19,7 +19,7 @@
 
 
 
-import datetime
-
-dt = datetime.datetime.now()
-print(dt.strftime("%c"))
+# import datetime
+#
+# dt = datetime.datetime.now()
+# print(dt.strftime("%c"))
