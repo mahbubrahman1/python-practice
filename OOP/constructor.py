@@ -1,5 +1,3 @@
-
-
 import math
 
 
@@ -41,7 +39,6 @@ my_car = Car("Allion", "White Pearl", 2012)
 print("Model_name:", my_car.name)
 print("Color:", my_car.color)
 print("Year:", my_car.year)
-
 """এখানে যখন আমি my_car = Car(“Corolla”, “White”) লিখছি, তখন __init__(self, n, c)-এর self-এ যাচ্ছে my_car অবজেক্টের রেফারেন্স, n-এ যাচ্ছে “Corolla”, আর c-তে যাচ্ছে “White”। তারপর যখন self.name = n স্টেটমেন্ট এক্সিকিউট হচ্ছে, তখন my_car অবজেক্টের name নামে একটি অ্যাট্রিবিউট তৈরি হচ্ছে আর সেখানে n অ্যাসাইন হচ্ছে। একইভাবে color অ্যাট্রিবিউট তৈরি হয়ে সেখানে c-তে যা পাঠিয়েছিলাম, তা অ্যাসাইন হচ্ছে।
 
 Car ক্লাসে যে দুটি ডেটা অ্যাট্রিবিউট তৈরি করেছিলাম (name ও color), সেগুলো কিন্তু আমি বাদ দিয়ে দিয়েছি। কারণ আমি অবজেক্ট তৈরি করার সময় init মেথডের ভেতরে self.name ও self.color যখন লিখছি, তখন সেই অবজেক্টের জন্য name ও color নামে অ্যাট্রিবিউট তৈরি হয়ে যাচ্ছে। একে বলে ইনস্ট্যান্স অ্যাট্রিবিউট, যা কেবল ওই ক্লাসের ইনস্ট্যান্সের (বা অবজেক্টের) থাকে। তবে এখন কিন্তু আর ক্লাসের নাম লিখে ডট দিয়ে name (ও color) একসেস করা যাবে না। আমরা যদি লিখি print(Car.name), তাহলে আমরা এরর পাবো : AttributeError: type object ‘Car’ has no attribute ‘name’।"""
@@ -63,8 +60,8 @@ class Car:
 my_car = Car("Allion", "Sky Blue", 2008)
 my_car.info()
 
-
 # এখন আমরা চাইলে একাধিক কার অবজেক্ট তৈরি করতে পারি।
+
 
 class Car:
 
@@ -132,11 +129,8 @@ mahbub.info()
 siddik = Student("Siddikur Rahman", "CSE", 163876)
 siddik.info()
 
-
 # more info check this video: https://www.youtube.com/watch?v=Yh8kivPAFZM&list=PLgH5QX0i9K3rz5XqMsTk41_j15_6682BN&index=54&ab_channel=AnisulIslam
 # subeen website: http://pybook.subeen.com/object-class-python/
-
-
 """ === trivujer ketrofol nirnoy"""
 
 
@@ -183,8 +177,6 @@ print("Area =", total1.calculate_area())
 
 total2 = Triangle(20, 30)
 print("Area =", total2.calculate_area())
-
-
 """=== britter ketrofol nirnoy"""
 
 
@@ -199,8 +191,6 @@ class Circle:
 
 total_area = Circle(4)
 print("Area = %0.2f" % total_area.calculate_area())
-
-
 """=== duita songkhar moddhe jug"""
 
 
@@ -224,8 +214,6 @@ total2 = Addition(100, 500)
 print(total2.calculate())
 total3 = Addition(100, 200)
 print(total3.calculate())
-
-
 """=== guloker ketrofol nirnoy"""
 
 

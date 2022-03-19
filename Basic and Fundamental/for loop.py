@@ -12,9 +12,9 @@
 #     print('Good Morning, Mahbub')
 #
 #
-# name = ['Jhon','Rose','Harry','Ani','Jack']
-# for z in name:
-#     print(z)
+name = ['Jhon','Rose','Harry','Ani','Jack']
+for z in name:
+    print(z)
 #
 # for x in "banana":
 #   print(x)
