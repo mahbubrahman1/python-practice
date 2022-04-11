@@ -275,10 +275,13 @@
 #         print("this number is odd")
 
 
-a = int(input("Enter the first number: "))
-b = int(input("Enter the second number: "))
-c = int(input("Enter the third number: "))
+# a = int(input("Enter the first number: "))
+# b = int(input("Enter the second number: "))
+# c = int(input("Enter the third number: "))
+# result = a + b + c
+# print("Result =", result)
 
-result = a + b + c
 
-print("Result =", result)
+city = ['Dhaka', 'Chitagong', 'Sylhet', "Cox's Bazar"]
+for i in city:
+    if len(i) == 5:print(i)

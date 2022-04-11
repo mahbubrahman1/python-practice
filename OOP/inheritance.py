@@ -38,7 +38,6 @@ class Phone:
     def message(self):
         print("You can message")
 
-
 class Apple(Phone):
 
     def photo(self):
