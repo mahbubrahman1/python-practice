@@ -282,6 +282,48 @@
 # print("Result =", result)
 
 
-city = ['Dhaka', 'Chitagong', 'Sylhet', "Cox's Bazar"]
-for i in city:
-    if len(i) == 5:print(i)
+# city = ['Dhaka', 'Chitagong', 'Sylhet', "Cox's Bazar"]
+# for i in city:
+#     if len(i) == 5:print(i)
+
+# a = 2 ** 3 + 'python' * 2 + 5// 2
+# print(a)
+
+# ai_master = 'Andrew Ng' * 2 * 2
+# print(ai_master)
+
+# a = 1 == 2 and 2 ** 2 == 2 ** 3 or (‘python’ != ‘java’ and (15//27//9 == 5) )
+
+# y = 10
+# a = 20
+# b = 51
+# if a > 19:
+#     if b < 0:
+#         if y == 10:
+#             y = y + 111
+#     elif a > 5:
+#         y = y + 41
+#     else:
+#         y = y + 30
+# else:
+#     y = y + 22
+#
+# print(y)
+
+# num = 0
+# for i in range(5):
+#     for j in range(0, -100, -1):
+#         num += 1
+#
+# print(num)
+
+# for i in range(1001, 2001, 202):
+#     for j in range(-15, -150, -2):
+#         for k in range(1, 10):
+#             print(i, j, k, end=',')
+
+x = 0
+while(x < 100):
+    x += 2
+if (x % 33 == 0):
+    print('this is an awkward loop')

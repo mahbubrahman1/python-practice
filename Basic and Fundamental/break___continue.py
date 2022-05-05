@@ -10,55 +10,55 @@ while i <= 30:
     print(i)
     i = i + 1
 
-p = 1
-while p <= 30:
-    print(p)
-    p = p + 1
-    if p == 15:
-        break
+# p = 1
+# while p <= 30:
+#     print(p)
+#     p = p + 1
+#     if p == 15:
+#         break
 
 
-i = int(input('How many Candies you want? '))
-av = 10
-i = 1
-while i > av:
-    break
-print("Here it is")
-i = i + 1
-print('bye')
-
-
-
+# i = int(input('How many Candies you want? '))
+# av = 10
+# i = 1
+# while i > av:
+#     break
+# print("Here it is")
+# i = i + 1
+# print('bye')
 
 
 
-for x in range(8):
-    if x > 3:
-        break
-    print(x)
 
 
 
-name = ['Jhon','Rose','Harry','Ani','Jack']
-for z in name:
-    print(z)
-    if z == 'Ani':
-        break
+# for x in range(8):
+#     if x > 3:
+#         break
+#     print(x)
 
 
 
-name = ['jhon','rose','harry','ani','jack']
-for z in name:
-    if z == 'ani':
-        break
-    print(z)
-
-
-
-for letter in 'string':
-    if letter == 'n':
-        break
-    print(letter)
+# name = ['Jhon','Rose','Harry','Ani','Jack']
+# for z in name:
+#     print(z)
+#     if z == 'Ani':
+#         break
+#
+#
+#
+# name = ['jhon','rose','harry','ani','jack']
+# for z in name:
+#     if z == 'ani':
+#         break
+#     print(z)
+#
+#
+#
+# for letter in 'string':
+#     if letter == 'n':
+#         break
+#     print(letter)
 
 
 
@@ -66,24 +66,24 @@ for letter in 'string':
 
 
 
-for x in range(10):
-    if x == 6:
-        continue
-    print(x)
-
-
-for letter in 'mahbub':
-    if letter == 'u':
-        continue
-    print(letter)
-
-
-i = 0
-while i < 9:
-    i = i + 1
-    if i == 4:
-        continue
-    print(i)
+# for x in range(10):
+#     if x == 6:
+#         continue
+#     print(x)
+#
+#
+# for letter in 'mahbub':
+#     if letter == 'u':
+#         continue
+#     print(letter)
+#
+#
+# i = 0
+# while i < 9:
+#     i = i + 1
+#     if i == 4:
+#         continue
+#     print(i)
 
 
 
