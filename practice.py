@@ -3864,7 +3864,7 @@ print(re(my_list))
 
 
 
-
+"""
 from tkinter import *
 
 root = Tk()
@@ -3888,5 +3888,29 @@ Entry(root, textvariable=pass_data).grid(row=1, column=2)
 Button(text="Submit", command=answer).grid(row=2, column=2)
 
 root.mainloop()
+"""
 
+# x = 0
+# while(x < 100):
+#     x += 2
+# if (x % 33 == 0):
+#     print('this is an awkward loop')
+
+# a = 100
+# b = 200
+# c = 300
+#
+# def processor(arg):
+#     print('processing stuffs!')
+#     global a
+#     global b
+#     c += arg + b + a
+#     print(c)
+# processor(10)
+
+# def mod_div_calculation(num1, num2, calc_type):
+#     if calc_type == '%':
+#         print(num1 % num2)
+#     elif calc_type == '/':
+#         print(num1 / num2)
 

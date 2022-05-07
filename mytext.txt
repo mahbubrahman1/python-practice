@@ -1,2 +1,0 @@
-
-if mid element is lower

@@ -321,9 +321,3 @@
 #     for j in range(-15, -150, -2):
 #         for k in range(1, 10):
 #             print(i, j, k, end=',')
-
-x = 0
-while(x < 100):
-    x += 2
-if (x % 33 == 0):
-    print('this is an awkward loop')
