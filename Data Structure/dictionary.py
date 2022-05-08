@@ -92,6 +92,7 @@ car = {
     "Year" : 2020,
     "Registration" : 2021
 }
+
 for i in car:
     print(car[i])
 

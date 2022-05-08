@@ -126,10 +126,39 @@
 # print(even_numbers)
 
 
-numbers = [67, 23, 56, 30, 69, 34, 20, 21]
-odd_numbers = []
-for i in numbers:
-    if i % 2 != 0:
-        odd_numbers.append(i)
+# numbers = [67, 23, 56, 30, 69, 34, 20, 21]
+# odd_numbers = []
+# for i in numbers:
+#     if i % 2 != 0:
+#         odd_numbers.append(i)
+#
+# print(odd_numbers)
 
-print(odd_numbers)
+
+# def show_output():
+#     print("hey there!!!")
+#
+# show_output()
+
+# def addition(x, y):
+#     result = x + y
+#     print(result)
+#
+# addition(50, 30)
+
+
+# def addition(x, y):
+#     result = x + y
+#     return result
+#
+# print(addition(50, 30))
+
+
+# def add_numbers(numbers):
+#     result = 0
+#     for number in numbers:
+#         result = result + number
+#     return result
+#
+# total = add_numbers([5, 7, 3, 4, 8])
+# print(total)
