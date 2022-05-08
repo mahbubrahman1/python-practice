@@ -46,6 +46,31 @@
 # for i in range(10):
 #     print(i)
 
+# result = 0
+# for num in range(100):
+#     if num % 5 == 0:
+#         print(num)
+#         result = result + num
+# print("Sum is:", result)
 
+# result = 0
+# for num in range(5, 101, 5):
+#     print(num)
+#     result = result + num
+# print("Sum is:", result)
 
+# saarc = ["Bangladesh", "Afghanistan", "Bhutan", "Nepal", "India", "Pakistan", "Srilanka"]
+# for country in saarc:
+#     print(country, "is a member of SAARC")
+
+# i = 1
+# while i < 10:
+#     print(i)
+#     i += 1
+
+n = int(input("Enter a positive integer number: "))
+m = 1
+while m <= 10:
+    print(n, "x", m, "=", n * m)
+    m = m + 1
 
