@@ -68,9 +68,68 @@
 #     print(i)
 #     i += 1
 
-n = int(input("Enter a positive integer number: "))
-m = 1
-while m <= 10:
-    print(n, "x", m, "=", n * m)
-    m = m + 1
+# n = int(input("Enter a positive integer number: "))
+# m = 1
+# while m <= 10:
+#     print(n, "x", m, "=", n * m)
+#     m = m + 1
 
+
+# num = [5, 6, 7, 6, 7]
+# print(num)
+
+# value = [56, 34, 2, "rahi", 30, 5, 3.4]
+# print(value)
+
+# numbers = [5, 6, 2, 8, 6, 4]
+# print(numbers[5])
+
+
+# friends = ["jack", "don", "rose", "nick", "tom"]
+# print("Emely" in friends)
+
+
+# numbers = [5, 7, 3, 4, 2, 8]
+# numbers.pop()
+# print(numbers)
+
+
+# numbers.sort()
+# print(numbers)
+
+
+# fruits = ["apple", "mango", "banana", "orange"]
+# item = "mango"
+# if item in fruits:
+#     remove(item)
+# else:
+#     print(item, "not in list")
+
+
+# fruits = ['apple', 'mango', 'banana', 'orange']
+# fruits.remove('mango')
+# print(fruits)
+
+
+# li = []
+# for i in range(10):
+#     li.append(i)
+# print(li)
+
+
+# li = [5, 3, 6, 2, 8, 4, 45, 64, 32]
+# even_numbers = []
+# for i in li:
+#     if i % 2 == 0:
+#         even_numbers.append(i)
+#
+# print(even_numbers)
+
+
+numbers = [67, 23, 56, 30, 69, 34, 20, 21]
+odd_numbers = []
+for i in numbers:
+    if i % 2 != 0:
+        odd_numbers.append(i)
+
+print(odd_numbers)
