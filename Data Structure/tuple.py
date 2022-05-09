@@ -11,7 +11,7 @@ print(tuple[2])
 
 
 
-# list er man change kora jay but tuple er man change kkora jay na....
+# list er man change kora jay but tuple er man change kkora jay na mane mutable noy....
 my_tup = (43, 34, 78, 10, 74)
 my_tup[3] = 18  
 print(my_tup)

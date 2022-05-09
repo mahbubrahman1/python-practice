@@ -169,10 +169,40 @@
 # print(sli)
 
 
-text = "ILoveYouToo"
+# text = "ILoveYouToo"
 # print(text[3:8])
 
 # print(text[4:])
 
-print(text[:5])
+# print(text[:5])
 
+
+# x = (5, 10, 15, 20)
+# print(type(x))
+
+
+# i = 5, 6, 3, 2
+# print(type(i))
+
+
+mobile = {
+    'Brand' : 'Samsung',
+    'Model' : 'Galaxy S22',
+    'Price' : '$899'
+}
+
+# print(mobile)
+# print(mobile['Brand'])
+# print(mobile.get('Price'))
+
+# for i in mobile:
+#     print(i)
+
+# for i in mobile.keys():
+#     print(i)
+
+# for i in mobile.values():
+#     print(i)
+
+for x, y in mobile.items():
+    print(x, y)
