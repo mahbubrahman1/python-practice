@@ -41,21 +41,21 @@
 
 
 
-def add(e,f):
+def add(e, f):
     sum = e + f
     return sum
 
-def remove(e,f):
+def remove(e, f):
     sub = e + f
     return sub
 
-def power(e,f):
+def power(e, f):
     multi = e * f
     return multi
 
-sum_result = add(20,10)
-sub_result = remove(20,10)
-multi_result = power(20,10)
+sum_result = add(20, 10)
+sub_result = remove(20, 10)
+multi_result = power(20, 10)
 
 
 # def add(e,f):
@@ -79,7 +79,7 @@ multi_result = power(20,10)
 
 
 
-def large_number(x,y):
+def large_number(x, y):
     if x > y:
         print(x)
     else:

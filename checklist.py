@@ -162,3 +162,17 @@
 #
 # total = add_numbers([5, 7, 3, 4, 8])
 # print(total)
+
+
+# text = "Bangladesh"
+# sli = text[3:-2]
+# print(sli)
+
+
+text = "ILoveYouToo"
+# print(text[3:8])
+
+# print(text[4:])
+
+print(text[:5])
+
