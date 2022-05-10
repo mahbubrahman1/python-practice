@@ -99,7 +99,7 @@ Mahbub.Department = "CSE"
 Mahbub.Shift = "2nd"
 Mahbub.Semester = "5th"
 
-print("Rolll:", Mahbub.Roll)
+print("Roll:", Mahbub.Roll)
 print("Department:", Mahbub.Department)
 print("Shift:", Mahbub.Shift)
 print("Semester:", Mahbub.Semester)
