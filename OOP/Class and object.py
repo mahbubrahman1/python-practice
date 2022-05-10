@@ -1,8 +1,8 @@
-class phone:
+class Phone:
     Brand = "Samsung"
 
 
-my_phone = phone()
+my_phone = Phone() # this an object
 print(my_phone.Brand)
 
 # class Phone:
