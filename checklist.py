@@ -185,11 +185,11 @@
 # print(type(i))
 
 
-mobile = {
-    'Brand' : 'Samsung',
-    'Model' : 'Galaxy S22',
-    'Price' : '$899'
-}
+# mobile = {
+#     'Brand' : 'Samsung',
+#     'Model' : 'Galaxy S22',
+#     'Price' : '$899'
+# }
 
 # print(mobile)
 # print(mobile['Brand'])
@@ -204,5 +204,28 @@ mobile = {
 # for i in mobile.values():
 #     print(i)
 
-for x, y in mobile.items():
-    print(x, y)
+# for x, y in mobile.items():
+#     print(x, y)
+
+# name = {
+#     'name' : 'jhon',
+#     'department' : 'computer science',
+#     'location' : 'nc, usa'
+# }
+#
+# name['email'] = 'jhon1@gmail.com'
+# print(name)
+
+
+# result = {
+#     'jhon' : 80,
+#     'mark' : 60,
+#     'jack' : 40,
+#     'rose' : 90
+# }
+#
+# print(type(result))
+
+
+from datetime import datetime
+print(datetime.today())

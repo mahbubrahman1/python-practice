@@ -1,5 +1,3 @@
-
-
 car = {"Brand" : "Audi", "Model" : "A6", "Year" : 2020}
 print(car)
 
@@ -216,11 +214,11 @@ print(name)
 name = {
     'Name' : 'Mahbub',
     'Age' : 18,
-    'Study' : 'CSE',
+    'Study' : 'CST',
     'Location' : 'Moulvibazar'
 }
 
-name['Study'] = 'CSE in BUET'
+name['Study'] = 'CST in MBPI'
 print(name)
 
 
@@ -294,25 +292,55 @@ print(type(roll))
 """=== === === ==="""
 
 
-marks = {"Jhon": {"Bangla": 74, "English": 73}, "Bill": {"Bangla": 70, "English": 75}}
+marks = {
+    "Jhon": {
+        "Bangla": 74,
+        "English": 73
+    },
+    "Bill": {
+        "Bangla": 70,
+        "English": 75
+    }
+}
+
 print(marks["Bill"])
 
 
 
 marks = {
-    "Jhon" : {"Bangla" : 74, "English" : 73},
-    "Bill" : {"Bangla" : 70, "English" : 75},
-    "Icson" : {"Bangla" : 67, "English" : 80}
+    "Jhon" : {
+        "Bangla" : 74,
+        "English" : 73
+    },
+    "Bill" : {
+        "Bangla" : 70,
+        "English" : 75
+    },
+    "Icson" : {
+        "Bangla" : 67,
+        "English" : 80
+    }
 }
+
 print(marks["Icson"])
 
 
 
 marks = {
-    "Jhon" : {"Bangla" : 74, "English" : 73},
-    "Bill" : {"Bangla" : 70, "English" : 75},
-    "Icson" : {"Bangla" : 67, "English" : 80}
+    "Jhon" : {
+        "Bangla" : 74,
+        "English" : 73
+    },
+    "Bill" : {
+        "Bangla" : 70,
+        "English" : 75
+    },
+    "Icson" : {
+        "Bangla" : 67,
+        "English" : 80
+    }
 }
+
 print(marks["Bill"])
 
 
@@ -361,11 +389,6 @@ bd_division_info = {
 }
 
 print(bd_division_info["Sylhet"])
-
-
-
-
-
 
 
 

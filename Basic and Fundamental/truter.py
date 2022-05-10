@@ -2,7 +2,7 @@
 #---- Turtle Graphics in Python
 
 
-import turtle
+"""import turtle
 
 turtle.shape("turtle")
 
@@ -134,7 +134,7 @@ s.left(120)
 s.forward(60)
 s.left(120)
 s.forward(60)
-
+"""
 
 
 
@@ -164,12 +164,9 @@ turtle.forward(70)
 turtle.exitonclick()
 
 
-
-
-
 # #---- Using for loop
 
-from turtle import *
+"""from turtle import *
 
 sq = Turtle()
 sq.shape("classic")
@@ -179,3 +176,4 @@ sq.color("violet")
 for i in range(4):
     sq.forward(100)
     sq.right(90)
+"""
