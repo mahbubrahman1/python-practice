@@ -4014,5 +4014,23 @@ root.mainloop()
 
 
 # One Value to Multiple Variables
-a = b = c = "hello"
-print(b)
+# a = b = c = "hello"
+# print(b)
+
+# some program......
+# name = input("Hi there! What's you name: ")
+# print("Nice to meet you! " + name)
+# age = int(input("How old are you: "))
+# birth_year = 2022 - age
+# ans = str(birth_year)
+# print("You were born in " + ans)
+
+# different way
+print("Hi there! What's you name?")
+name = input()
+print("Nice to meet you! " + name)
+print("How old are you?")
+age = int(input())
+birth_year = 2022 - age
+ans = str(birth_year)
+print("You were born in " + ans)

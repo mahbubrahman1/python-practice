@@ -854,12 +854,100 @@ phone = {
 # info = Student()
 # print(info.name)
 
-class Student:
-    name = "John Dalton"
-    id = 56
-    department = "CE"
+# class Student:
+#     name = "John Dalton"
+#     id = 56
+#     department = "CE"
+#
+# info = Student()
+# print("Name:", info.name)
+# print("ID:", info.id)
+# print("Department:", info.department)
 
-info = Student()
-print("Name:", info.name)
-print("ID:", info.id)
-print("Department:", info.department)
+
+# class Car:
+#     name = ""
+#     color = ""
+#
+# my_car = Car()
+#
+# my_car.name = "Allion"
+# my_car.color = "White"
+# print(my_car.name)
+# print(my_car.color)
+
+#? class constructure
+# class Phone:
+#
+#     def __init__(seft, Brand, Model):
+#         seft.Brand = Brand
+#         self.Model = Model
+#
+# my_phone = Phone("Samsung", "Galaxy S22")
+# print(my_phone.Brand)
+# print(my_phone.Model)
+
+# class Student:
+#
+#     def __init__(self, name, id, department):
+#         self.name = name
+#         self.id = id
+#         self.department = department
+#
+# about_john = Student("John Devid", 95, "IT")
+# print("Name:", about_john.name)
+# print("ID:", about_john.id)
+# print("Department:", about_john.department)
+
+
+# class Student:
+#
+#     def __init__(self, name, id, department):
+#         self.name = name
+#         self.id = id
+#         self.department = department
+#
+#     def info(self):
+#         print("Name:", self.name)
+#         print("ID:", self.id)
+#         print("Department:", self.department)
+#
+# student_info = Student("Jon", 98, "Information Technology")
+# student_info2 = Student("David", 34, "Computer Engineering")
+# student_info.info()
+# student_info2.info()
+
+# class Triangle:
+#
+#     def calculate_area(self, base, height):
+#         return base * height
+#
+# result = Triangle()
+# print(result.calculate_area(3, 5))
+
+# calculate triangle area using constructor...
+class Triangle:
+
+    def __init__(self, base, height):
+        self.base = base
+        self.height = height
+
+    def calculate_area(self):
+        return 0.5 * self.base * self.height
+
+result = Triangle(4, 9)
+print(result.calculate_area())
+
+# duita shonkhar moddhe jug
+
+class Addition:
+
+    def __init__(self, num1, num2):
+        self.n1 = num1
+        self.n2 = num2
+
+    def calculate(self):
+        return self.n1 + self.n2
+
+result = Addition(50, 60)
+print(result.calculate())

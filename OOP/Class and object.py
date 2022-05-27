@@ -109,7 +109,7 @@ print("Shift:", Mahbub.Shift)
 print("Semester:", Mahbub.Semester)
 
 # Rahi = Student_info()
-# Rahi.Rolll = 163895
+# Rahi.Roll = 163895
 # Rahi.Department = "CE"
 # Rahi.Shift = "2nd"
 # Rahi.Semester = "5th"

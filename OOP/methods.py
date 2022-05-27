@@ -1,5 +1,3 @@
-
-
 class Phone:
     Name = "Samsung Galaxy Note20 Ultra"
 
@@ -172,7 +170,7 @@ print("Name:", Nila_laptop.Model_Name)
 print("Brand:", Nila_laptop.Brand)
 print("RAM:", Nila_laptop.RAM)
 
-# ekhane code onek kihte hoy but methode use korle aro sohoj hoy
+# ekhane code onek likhte hoy but methode use korle aro sohoj hoy
 
 class Friends_laptop:
 

@@ -26,9 +26,6 @@ class Samsung(Phone):
         print("I'm Samsung")
     
 my = Samsung()
-    
-
-
 
 
 
