@@ -1,5 +1,5 @@
 
-x = lambda a: a+10
+x = lambda a : a + 10
 print(x(20))
 
 #ekhane a hocche peramiter/argument and ei peramiter a ami 20 pass korechi

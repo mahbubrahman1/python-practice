@@ -1,7 +1,4 @@
-
-
 #                *** Break ***
-
 
 i = 1
 while i <= 30:
@@ -9,6 +6,7 @@ while i <= 30:
         break
     print(i)
     i = i + 1
+
 
 # p = 1
 # while p <= 30:
@@ -28,15 +26,10 @@ while i <= 30:
 # print('bye')
 
 
-
-
-
-
 # for x in range(8):
 #     if x > 3:
 #         break
 #     print(x)
-
 
 
 # name = ['Jhon','Rose','Harry','Ani','Jack']
@@ -46,13 +39,11 @@ while i <= 30:
 #         break
 #
 #
-#
 # name = ['jhon','rose','harry','ani','jack']
 # for z in name:
 #     if z == 'ani':
 #         break
 #     print(z)
-#
 #
 #
 # for letter in 'string':
@@ -63,9 +54,6 @@ while i <= 30:
 
 
 #                        ***Continue***
-
-
-
 # for x in range(10):
 #     if x == 6:
 #         continue

@@ -2,7 +2,7 @@ class Phone:
     Brand = "Samsung"
 
 
-my_phone = Phone() # this an object
+my_phone = Phone()  # this an object
 print(my_phone.Brand)
 
 # class Phone:
@@ -67,22 +67,26 @@ print(my_phone.Brand)
 
 # # """=== ekhon amra classer object toiri korbo ==="""
 
-# class Car:
-#     name = "Allion"
-#     color = "White"
 
-# # creating a car object
-# my_car = Car()
-# print("Name:", my_car.name)
-# print("color:", my_car.color)
+class Car:
+    name = "Allion"
+    color = "White"
 
-# class Car:
-#     name = ""
-#     color = ""
 
-# my_car = Car()
-# my_car.name = "Allion"
-# print(my_car.name)
+# creating a car object
+my_car = Car()
+print("Name:", my_car.name)
+print("color:", my_car.color)
+
+
+class Car:
+    name = ""
+    color = ""
+
+
+my_car = Car()
+my_car.name = "Allion"
+print(my_car.name)
 
 
 class Student_info:
@@ -95,7 +99,7 @@ class Student_info:
 
 Mahbub = Student_info()
 Mahbub.Roll = 163895
-Mahbub.Department = "CSE"
+Mahbub.Department = "CE"
 Mahbub.Shift = "2nd"
 Mahbub.Semester = "5th"
 
@@ -106,6 +110,6 @@ print("Semester:", Mahbub.Semester)
 
 # Rahi = Student_info()
 # Rahi.Rolll = 163895
-# Rahi.Department = "CSE"
+# Rahi.Department = "CE"
 # Rahi.Shift = "2nd"
 # Rahi.Semester = "5th"

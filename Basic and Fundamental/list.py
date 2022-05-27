@@ -1,3 +1,5 @@
+li = [6, 7, "Jack", 9, "Mark"]
+print(type(li))
 
 # integer type data
 age = [18,17,34,23,56,32]

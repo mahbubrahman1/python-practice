@@ -11,7 +11,7 @@
 #     print('Good Morning, Mahbub')
 #
 #
-name = ['Jhon','Rose','Harry','Ani','Jack']
+name = ['Jhon', 'Rose', 'Harry', 'Ani', 'Jack']
 for z in name:
     print(z)
 #

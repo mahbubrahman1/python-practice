@@ -3899,7 +3899,7 @@ root.mainloop()
 # a = 100
 # b = 200
 # c = 300
-#
+
 # def processor(arg):
 #     print('processing stuffs!')
 #     global a
@@ -3914,3 +3914,105 @@ root.mainloop()
 #     elif calc_type == '/':
 #         print(num1 / num2)
 
+# a = 60
+# b = 70
+# result = a + b
+# print(result)
+
+# a = 9
+# b = 4
+# print(a * b)
+
+# name = "Mahbubur Rahman"
+# print("His full name is " + name)
+
+# numbers = [6, 4, 8, 3, 9, 2]
+# for i in numbers:
+#     print(i)
+
+# numbers = [6, 8, 4, 6, 2, 9]
+# find = numbers[4]
+# print(find)
+
+# numbers = [6, 8, 4, 6, 2, 9]
+# print(numbers[2:])
+
+# numbers = [6, 8, 4, 6, 2, 9]
+# print(len(numbers))
+
+# numbers = [6, 8, 4, 5, 2, 9]
+# numbers.remove(6)
+# print(numbers)
+
+# numbers = [6, 8, 4, 5, 2, 9]
+# numbers.insert(4, 10)
+# print(numbers)
+
+# numbers = [6, 8, 4, 5, 2, 9]
+# numbers.append(3)
+# print(numbers)
+
+# numbers = [6, 8, 4, 5, 2, 9]
+# check = 6 in numbers
+# print(check)
+
+# numbers = [6, 8, 4, 5, 2, 9]
+# check = 7 in numbers
+# print(check)
+
+# numbers = [6, 8, 4, 5, 2, 9, 1]
+# numbers.sort()
+# print(numbers)
+
+# li = []
+# for i in range(10):
+#     li.append(i)
+#
+# print(li)
+
+# my_list = []
+# for i in range(5):
+#     my_list.append(i**2)
+#
+# print(my_list)
+
+# li = [6, 7, "Jack", 9, "Mark"]
+# print(type(li))
+
+#-----------------------------------------------
+#===============================================
+
+# hello world...
+# print("Hello, World!")
+
+
+# variables..
+# x = 50
+# y = 70
+# print(x)
+# print(y)
+
+# x = 10
+# x = "Really"
+# print(x)
+
+
+# type...
+# x = 10
+# print(type(x))
+
+# check = True
+# print(type(check))
+
+# num = 10.5
+# print(type(num))
+
+
+# Many Values to Multiple Variables
+# num1, num2, num3 = 60, 40, 20
+# print(num2)
+
+
+# One Value to Multiple Variables
+a = b = c = "hello"
+print(b)
