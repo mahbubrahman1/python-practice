@@ -1,3 +1,4 @@
+"""
 li = [6, 7, "Jack", 9, "Mark"]
 print(type(li))
 
@@ -118,14 +119,24 @@ print(alphabet)
 number = [2, 5, 1, 23, 3, 7, 4, 8, 9, 6, 10]
 number.sort()
 print(number)
+"""
+
+# sort in reverse way
+country = ["China", "Japan", "Canada", "Sweden", "Australia", "US"]
+country.sort(key = str.lower, reverse = True)
+print(country)
+
+# li = []
+# for i in range(10):
+#     li.append(i)
+# print(li)
 
 
-li = []
-for i in range(10):
-    li.append(i)
-print(li)
-
-
+# nested list
+# li = [[5, 9, 4], [3, 8, 6]]
+# print(li)
+# print(li[0][2])
+# print(li[1][1])
 
 # li = [5, 3, 6, 2, 8, 4, 45, 64, 32]
 # even_numbers = []
@@ -136,13 +147,13 @@ print(li)
 # print(even_numbers)
 
 
-numbers = [67, 23, 56, 30, 69, 34, 20, 21]
-odd_numbers = []
-for i in numbers:
-    if i % 2 != 0:
-        odd_numbers.append(i)
-
-print(odd_numbers)
+# numbers = [67, 23, 56, 30, 69, 34, 20, 21]
+# odd_numbers = []
+# for i in numbers:
+#     if i % 2 != 0:
+#         odd_numbers.append(i)
+#
+# print(odd_numbers)
 
 
 # - list from user

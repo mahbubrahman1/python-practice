@@ -1,13 +1,9 @@
-
-
 lower_num = int(input("Enter lower range limit:"))
 upper_num = int(input("Enter upper range limit:"))
 
 for i in range(lower_num, upper_num+1):
    if i % 3 == 0 and i % 5==0:
       print(i)
-
-
 
 
 
@@ -20,9 +16,6 @@ for i in range(start, end+1):
 
 
 
-
-
-
 num = int(input("Enter a number: "))
 result = []
 
@@ -30,9 +23,6 @@ for i in range(num):
     if i % 3 == 0 and i % 5 == 0:
         result.append(i)
 print(result)
-
-
-
 
 
 

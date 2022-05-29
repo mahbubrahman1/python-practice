@@ -4017,20 +4017,63 @@ root.mainloop()
 # a = b = c = "hello"
 # print(b)
 
-# some program......
-# name = input("Hi there! What's you name: ")
-# print("Nice to meet you! " + name)
-# age = int(input("How old are you: "))
-# birth_year = 2022 - age
-# ans = str(birth_year)
-# print("You were born in " + ans)
+#==============================555
 
-# different way
-print("Hi there! What's you name?")
-name = input()
-print("Nice to meet you! " + name)
-print("How old are you?")
-age = int(input())
-birth_year = 2022 - age
-ans = str(birth_year)
-print("You were born in " + ans)
+# def check_prime(num):
+#
+#     for i in range(2, num):
+#         if num % i == 0:
+#             print("It's not a prime number")
+#             break
+#     else:
+#         print("It's a prime number")
+#
+# num = int(input("Enter a number: "))
+# check_prime(num)
+
+# def count_vowels(text):
+#     c = 0
+#     vowels = ["a", "e", "i", "o", "u"]
+#     for i in text:
+#         if i in vowels:
+#             c = c + 1
+#     return c
+#
+# text = input("Enter text: ")
+# result = count_vowels(text)
+# print("Total vowels in this text", result)
+
+# fibonnacchi series..
+
+# def fibo(num):
+#     num1 = 0
+#     num2 = 1
+#
+#     if (num == 1):
+#         print(num1)
+#     else:
+#         print(num1)
+#         print(num2)
+#
+#         for i in range(2, num):
+#             result = num1 + num2
+#             num1 = num2
+#             num2 = result
+#             print(result)
+#
+# fibo(10)
+
+def leap_year(year):
+    if year % 400 == 0:
+        print("It is leap year")
+    elif year % 100 == 0:
+        print("It is not leap year")
+    elif year % 4 == 0:
+        print("It is leap year")
+    else:
+        print("It is not leap year")
+
+for i in range(1, 5):
+    year = int(input("Enter year: "))
+    leap_year(year)
+
