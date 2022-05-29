@@ -27,7 +27,7 @@ def binary_search(list, find_value):
     high = len(list)
 
     while low <= high:
-        mid = (low + high)//2
+        mid = (low + high) // 2
         if list[mid] < find_value:
             low = mid
         elif list[mid] > find_value:
@@ -35,7 +35,7 @@ def binary_search(list, find_value):
         else:
             return mid
         
-list = [1,2,3,4,5,6,7,8,9]
+list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 index = binary_search(list, 8)
 print(index)
 

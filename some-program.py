@@ -95,12 +95,10 @@ else:
 """
 
 # search item using Linear Search algorithom...
-
-
-
+"""
+n = 6
 
 def searching(li, n):
-
     for i in range(len(li)):
         if li[i] == n:
             return "Found!"
@@ -108,6 +106,96 @@ def searching(li, n):
     if i == len(li) - 1:
         return "Not Found!"
 
-n = 7
 li = [5, 7, 3, 9, 1]
-print(searching(li))
+result = searching(li, n)
+print(result)
+"""
+
+
+"""
+def linear_search(li, x):
+    n = len(li)
+
+    for i in range(n):
+        if li[i] == x:
+            return "FOUND!"
+
+    return "NOT FOUND!"
+
+li = [6, 8, 3, 4, 5]
+x = 7
+result = linear_search(li, x)
+print(result)
+"""
+
+
+"""
+def linear_search(my_list, find_num):
+    n = len(my_list)
+
+    for i in range(n):
+        if my_list[i] == find_num:
+            return "found!"
+
+    return "not found!"
+
+my_list = [10, 60, 40, 30, 90]
+find_num = 30
+print(linear_search(my_list, find_num))
+"""
+
+
+"""
+text = "bangladesh is a beautiful country"
+letters = {}
+
+for i in text:
+    letters.setdefault(i, 0)
+    letters[i] = letters[i] + 1
+
+print(letters)
+"""
+
+"""
+import pprint as serial
+
+text = "bangladesh is a beautiful country"
+letters = {}
+
+for i in text:
+    letters.setdefault(i, 0)
+    letters[i] = letters[i] + 1
+
+serial.pprint(letters)
+"""
+
+contact_number = {
+    "John" : 1799886655,
+    "David" : 1944338899,
+    "Marin" : 1633221177
+}
+n = 0
+
+while n < 5:
+    name = input("Enter your name or press Enter to exit: ")
+
+    if name == "":
+        break
+
+    if name in contact_number:
+        print("The contact number of "+name + " is " + str(contact_number[name]))
+    else:
+        add = input("There is no such name in the phone-book. Do you want to add it? ")
+
+        if add == "yes":
+            number = input("Enter the number: ")
+            contact_number[name] = number
+            print("Dictionary updated.")
+        elif add == "no":
+            quit = input("Do you want to quit?")
+            if quit == "yes":
+                break
+            else:
+                print("keep searching...")
+
+        n = n + 1

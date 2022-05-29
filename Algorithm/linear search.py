@@ -13,3 +13,17 @@ for car in my_car_list:
         break
 else:
     print("it's not in my car list")
+
+
+def linear_search(my_list, find_num):
+    n = len(my_list)
+
+    for i in range(n):
+        if my_list[i] == find_num:
+            return "found!"
+
+    return "not found!"
+
+my_list = [10, 60, 40, 30, 90]
+find_num = 30
+print(linear_search(my_list, find_num))
