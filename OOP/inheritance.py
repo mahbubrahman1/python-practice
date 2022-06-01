@@ -1,25 +1,18 @@
-
-
 import math
 
-
 class A:
-
     def features1(self):
         print("Feature 1 working")
 
     def features2(self):
         print("Feature 2 working")
 
-
 class B(A):
-
     def features4(self):
         print("Feature 4 working")
 
     def features6(self):
         print("Feature 6 working")
-
 
 my = B()
 my.features1()
@@ -31,7 +24,6 @@ my.features6()
 
 
 class Phone:
-
     def call(self):
         print("You can call")
 
@@ -39,10 +31,8 @@ class Phone:
         print("You can message")
 
 class Apple(Phone):
-
     def photo(self):
         print("You can take photo")
-
 
 my_phone = Apple()
 my_phone.message()
@@ -51,7 +41,6 @@ my_phone.photo()
 
 
 class School:
-
     def class_one(self):
         print("This is class 1")
 
@@ -69,7 +58,6 @@ class School:
 
 
 class High_School(School):
-
     # school import in High_School
     def class_six(self):
         print("This is class 6")
@@ -85,7 +73,6 @@ class High_School(School):
 
     def class_ten(self):
         print("This is class 10")
-
 
 all_class = High_School()
 all_class.class_one()
@@ -127,8 +114,7 @@ all_class.class_ten()
 
 
 class Phone():
-
-    def __init__(self, brand, price, netwark) -> None:
+    def __init__(self, brand, price, netwark):
         self.brand = brand
         self.price = price
         self.netwark = netwark
@@ -137,38 +123,29 @@ class Phone():
         print("Eating Electricity:")
         print("Electrons are Yummy!")
 
-
 my_phone = Phone("Apple", 100, "Airtel")
 my_phone.recharge()
 
 
 class Shape:
-
-    def __init__(self, a, b) -> None:
+    def __init__(self, a, b):
         self.a = a
         self.b = b
 
-
 class Triangle(Shape):
-
     def area(self):
         area = 0.5 * self.a * self.b
         return area
 
-
 class Rectangle(Shape):
-
     def area(self):
         area = self.a * self.b
         return area
 
-
 class Circle(Shape):
-
     def area(self):
         area = math.pi * self.a * self.a
         return area
-
 
 tri = Triangle(8, 6)
 rec = Rectangle(9, 2)

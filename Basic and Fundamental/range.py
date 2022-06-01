@@ -10,7 +10,11 @@
 #print(i)
 
 
-p = range(3, 15)
+# p = range(3, 15)
+# for i in p:
+#     print(i)
 
-for i in p:
-    print(i)
+
+# reverse
+my_list = list(range(10, 0, -1))
+print(my_list)

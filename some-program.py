@@ -169,6 +169,7 @@ for i in text:
 serial.pprint(letters)
 """
 
+"""
 contact_number = {
     "John" : 1799886655,
     "David" : 1944338899,
@@ -199,3 +200,4 @@ while n < 5:
                 print("keep searching...")
 
         n = n + 1
+"""

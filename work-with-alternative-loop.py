@@ -1,0 +1,28 @@
+# my_list = [5, 9, 6, 7, 4]
+# new_list = []
+#
+# for i in my_list:
+#     new_list.append(i * i)
+#
+# print(new_list)
+
+
+# my_list = [5, 9, 6, 7, 4]
+# new_list = [i * i for i in my_list]
+# print(new_list)
+
+
+# squares of the odd numbers
+# my_list = [5, 9, 6, 7, 4]
+# new_list = []
+#
+# for i in my_list:
+#     if i % 2 != 0:
+#         new_list.append(i * i)
+#
+# print(new_list)
+
+
+my_list = [5, 9, 6, 7, 4]
+new_list = [i*i for i in my_list if i%2!=0]
+print(new_list)

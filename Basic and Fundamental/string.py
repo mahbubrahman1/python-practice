@@ -82,6 +82,12 @@ ditiyotate error asbe. eta অনেকটা লিস্টের মতো
 #     print("Today is holyday")
 
 
-str = "a quick brown for jumps over the lazy dog"
-for c in "abcdefghijklmnopqrstuvwxyz":
-    print(c, str.count(c))
+# str = "a quick brown for jumps over the lazy dog"
+# for c in "abcdefghijklmnopqrstuvwxyz":
+#     print(c, str.count(c))
+
+# string formating basics
+# name = "Mahbub"
+# department = "Computer Engineering"
+# registration_number = "1500445533"
+# print(f"He is {name}. Currently he studying department of {department}. His registration number is {registration_number}")

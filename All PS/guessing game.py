@@ -1,4 +1,3 @@
-
 import random
 
 
@@ -11,12 +10,6 @@ else:
     print("You have lost")
 
 
-
-
-
-
-
-
 guess_number = int(input("Enter number between 1 to 10: "))
 random_number = random.randint(1, 10)
 
@@ -27,11 +20,6 @@ else:
 
     # show the random number
     print("Random number was:", random_number)
-
-
-
-
-
 
 
 # random moudle import korte abar vule jeona. ekhane ami import korinai cause upore dekho kore felchi

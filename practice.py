@@ -4108,8 +4108,42 @@ root.mainloop()
 # print(simple[:-1])
 # print(simple[-1])
 
-import csv
-file = open("test.csv")
-csv_file_reader = csv.reader(file)
-data = list(csv_file_reader)
-print(csv_file_reader)
+# import csv
+# file = open("test.csv")
+# csv_file_reader = csv.reader(file)
+# data = list(csv_file_reader)
+# print(csv_file_reader)
+#
+# d = {"name" : "M", "Salary" : 18000}
+# temp = d.pop("age")
+# print(temp)
+
+# t={}
+# l = [1,2,2,3,3,3,1]
+# for num in l:
+#      if num in t.keys():
+#          t[num] += 1
+#      else:
+# t[num]= 1
+
+
+# l = []
+# def convert_number(num):
+#     if(num == 0):
+#         return l
+#     digit = num % 2
+#     l.append(digit)
+#     convert_number(2)
+# convert_number(6)
+# l.reverse()
+# for i in l:
+#     print(i, end="")
+
+# def modify_num(number):
+#     number **= 2
+#     return lambda num: num ** number
+# print(modify_num(2)(3))
+
+my_list = ["John", "Emely", "Dabid", "zack", "Carolina", "merin", "amee"]
+my_list.sort(key=str.lower)
+print(my_list)
