@@ -4144,6 +4144,10 @@ root.mainloop()
 #     return lambda num: num ** number
 # print(modify_num(2)(3))
 
-my_list = ["John", "Emely", "Dabid", "zack", "Carolina", "merin", "amee"]
-my_list.sort(key=str.lower)
-print(my_list)
+# my_list = ["John", "Emely", "Dabid", "zack", "Carolina", "merin", "amee"]
+# my_list.sort(key=str.lower)
+# print(my_list)
+
+
+sub = lambda a, b: a * b
+print(sub)
