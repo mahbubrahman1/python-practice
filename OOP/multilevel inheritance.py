@@ -50,7 +50,6 @@ class C(B):
         super().class3()
         super().class5()
         super().class4()
-        print("this is one, three, four, five")
 
 both = C()
 both.first()

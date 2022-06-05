@@ -1,4 +1,4 @@
-
+# method overriding bolte bujhay aki methot abar define kora
 # class Phone:
 
 #     def __init__(self) -> None:
