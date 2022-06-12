@@ -4149,5 +4149,28 @@ root.mainloop()
 # print(my_list)
 
 
-sub = lambda a, b: a * b
-print(sub)
+# sub = lambda a, b: a * b
+# print(sub)
+
+
+# import requests
+# url = "https://jsonplaceholder.typicode.com/users/3"
+# response = requests.get(url)
+# print(response.text)
+
+
+import sys
+import matplotlib
+matplotlib.use('Agg')
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df = pd.read_csv('data.csv')
+
+df.plot()
+
+plt.show()
+
+plt.savefig(sys.stdout.buffer)
+sys.stdout.flush()

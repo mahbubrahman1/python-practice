@@ -158,14 +158,14 @@ print(country)
 
 # - list from user
 
-# list = []
-# length = int(input("Enter the length of list: "))
+list = []
+length = int(input("Enter the length of list: "))
 
-# for i in range(length):
-#     x = int(input("Enter the number: "))
-#     list.append(x)
+for i in range(length):
+    x = int(input("Enter the number: "))
+    list.append(x)
 
-# print("list:", list)
+print("list:", list)
 
 
 
